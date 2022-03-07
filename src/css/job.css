@@ -1,0 +1,111 @@
+.job-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    height: auto;
+    background: white;
+    margin: 50px auto;
+    padding: 25px 15px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px rgb(206, 204, 204);
+}
+.job-container--border {
+    border-left: 7px solid var(--Desaturated-Dark-Cyan);
+}
+.logo {
+    display: flex;
+    position: absolute;
+    top: -26px;
+}
+.logo img{
+    width: 60%;
+}
+.job-section-one {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.company{
+    margin: 15px 0 10px 0;
+}
+.company-new, .company-name, .company-featured {
+    margin-right: 10px;
+    font-weight: 500;
+}
+.company-name {
+    color: var(--Desaturated-Dark-Cyan);
+}
+.company-new {
+    color: var(--Filter-Tablets);
+    background: var(--Desaturated-Dark-Cyan);
+    padding: 4px 8px; 
+    border-radius: 15px;
+}
+.company-featured {
+    color: var(--Filter-Tablets);
+    background: var(--Very-Dark-Grayish-Cyan);
+    padding: 4px 8px; 
+    border-radius: 15px;
+}
+.job-position {
+    font-size: 18px;
+}
+.details {
+    margin-right: 10px;
+    color: var(--Dark-Grayish-Cyan);
+    margin: 15px 0 10px 0;
+    opacity: 0.5;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--Dark-Grayish-Cyan);
+}
+.details span {
+    margin-bottom: 5px;
+}
+.job-section-two {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.roles {
+    height: 40px;
+    color: var(--Desaturated-Dark-Cyan);
+    font-weight: bold;
+    margin: 0 15px 15px 0;
+    padding: 10px;
+    background-color: var(--Filter-Tablets);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 750px) {
+    .job-container {
+        flex-direction: row;
+    }
+    .job-section-two {
+        width: 50%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .details {
+        border-bottom: none;
+    }
+}
+@media only screen and (min-width: 950px) {
+    .job-container {
+        position: static;
+    }
+    .logo {
+        width: 150px;
+        height: 110px;
+        position: static;
+        margin-right: 25px;
+    }
+    .logo img{
+        width: 100%;
+    }
+
+}
