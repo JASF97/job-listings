@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjob_listings=self.webpackChunkjob_listings||[]).push([[317],{317:function(e,n,t){t.r(n);t(791);var r=t(184);n.default=function(e){var n=e.searchKeyword;return(0,r.jsx)("div",{className:"header-container",children:(0,r.jsx)("ul",{children:(0,r.jsx)("input",{type:"text",onChange:function(e){return n(e.target.value)}})})})}}}]);
+//# sourceMappingURL=317.f71a032e.chunk.js.map

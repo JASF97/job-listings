@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjob_listings=self.webpackChunkjob_listings||[]).push([[116],{116:function(s,t,e){s.exports=e.p+"static/media/shortly.3c01b577742e2648f6f9.svg"}}]);
